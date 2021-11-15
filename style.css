@@ -1,0 +1,139 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgb(233, 233, 227);
+}
+* , ::after, ::before{
+    box-sizing: inherit;
+}
+
+.container{
+    max-width: 1100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+.main{
+    width: 100%;
+    
+}
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_header{
+    margin: 10px 10px;
+    padding: 10px 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.list{
+    background-color:white;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.list_header{
+    margin: 10px 10px;
+    padding: 17px 15px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.subheader{
+    margin-top:2px;
+    background-color: white;
+    padding:20px 25px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.newTask{
+    width: 83%;
+    height:40px;
+}
+
+.subheader_button{
+    color: white;
+    background-color:teal;
+    margin-left: 30px;
+}
+
+
+.tasks{
+    background-color: white;
+    height: 50px;
+}
+
+.js-form{
+    display: flex;
+    width: 100%;
+}
+ 
+.list_list{
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.js-tasks{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    
+}
+
+
+
+.js-remove{
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border: 1px solid red;
+    float: right;
+    padding: 5px 10px;
+
+   
+    
+    
+}
+
+.js-done{
+    width: 35px;
+    height: 35px;
+    background-color:green;
+    border: 1px solid green;
+    float: left;
+    padding: 0 10px;
+    
+}
+.linia{
+    border-bottom: 1px solid rgb(158, 154, 154);
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px 0;
+    
+}
+
+.list__item--done{
+    text-decoration: line-through;
+    
+    margin: 20px 0 0 0;
+    padding: 5px 10px;
+}
+
+.list__item{
+    margin: 20px 0 0 0;
+    font-size: large;
+    padding: 5px 10px;
+}

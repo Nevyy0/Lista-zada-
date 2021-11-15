@@ -1,0 +1,12 @@
+@media (max-width: 767px)   {
+    .js-form{
+        flex-direction: column;
+    }
+    .newTask{
+        width: 100%;
+    }
+    .subheader_button{
+        width: 100%;
+        margin:10px 0 ;
+    }
+}
